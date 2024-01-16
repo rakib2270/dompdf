@@ -9,14 +9,15 @@
 }
 
 a {
-    color: #0087C3;
+    color: black;
     text-decoration: none;
 }
 
+
 body {
     position: relative;
-    width:  20cm;
-    height: 25.27cm;
+    width:  18cm;
+    height: 26.7cm;
     margin: 0 auto;
     color: #555555;
     background: #FFFFFF;
@@ -93,7 +94,7 @@ table {
 
 table th,
 table td {
-    padding: 20px;
+    padding: 10px;
     background: #EEEEEE;
     text-align: center;
     border-bottom: 1px solid #FFFFFF;
@@ -172,8 +173,12 @@ table tfoot tr td:first-child {
 }
 
 #thanks{
-    font-size: 2em;
-    margin-bottom: 50px;
+    height: 30px;
+    max-width: 200px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 #notices{
@@ -192,7 +197,7 @@ footer {
     position: absolute;
     bottom: 0;
     border-top: 1px solid #AAAAAA;
-    padding: 8px 0;
+    padding: 5px 0;
     text-align: center;
 }
 
@@ -215,7 +220,4 @@ footer {
     transition-duration: 3s;
 }
 
-a {
-  color: black;
-}
 
